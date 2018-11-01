@@ -1,4 +1,4 @@
-package gestionecalciatori;
+package gestioneproprietari;
 
 import java.awt.*;
 import java.util.ArrayList;
@@ -8,7 +8,7 @@ public class PopUpFrame extends JFrame {
 
     public static final int POPUP_WIDTH = 350;
     public static final int POPUP_HEIGHT = 400;
-    public static final Point center = GestioneCalciatori.center;
+    public static final Point center = GestionePropietari.center;
     private JScrollPane sp = new JScrollPane();
     private JTextArea ta = new JTextArea();
 

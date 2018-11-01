@@ -1,0 +1,4 @@
+create table proprietario (
+    Nome varchar(10) primary key,
+    Targa varchar(10), 
+    anno int);

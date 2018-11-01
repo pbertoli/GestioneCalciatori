@@ -1,4 +1,4 @@
-package gestionecalciatori;
+package gestioneproprietari;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -7,9 +7,9 @@ import javax.swing.JOptionPane;
 
 public class RispondiAlClick implements ActionListener {
 
-    GestioneCalciatori frame;
+    GestionePropietari frame;
 
-    public RispondiAlClick(GestioneCalciatori frame) {
+    public RispondiAlClick(GestionePropietari frame) {
         this.frame = frame;
     }
 

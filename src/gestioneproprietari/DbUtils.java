@@ -1,4 +1,4 @@
-package gestionecalciatori;
+package gestioneproprietari;
 
 import java.math.BigDecimal;
 import java.sql.*;

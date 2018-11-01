@@ -1,13 +1,13 @@
-package gestionecalciatori;
+package gestioneproprietari;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class RispondiAdInvio implements ActionListener {
 
-    GestioneCalciatori frame;
+    GestionePropietari frame;
 
-    public RispondiAdInvio(GestioneCalciatori frame) {
+    public RispondiAdInvio(GestionePropietari frame) {
         this.frame = frame;
     }
 

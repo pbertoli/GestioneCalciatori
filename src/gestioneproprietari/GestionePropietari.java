@@ -1,10 +1,10 @@
-package gestionecalciatori;
+package gestioneproprietari;
 
 import java.awt.*;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
-public class GestioneCalciatori extends JFrame {
+public class GestionePropietari extends JFrame {
 
     public static final int FRAME_WIDTH = 600;
     public static final int FRAME_HEIGHT = 500;
@@ -52,7 +52,7 @@ public class GestioneCalciatori extends JFrame {
         return t3;
     }
 
-    public GestioneCalciatori() {
+    public GestionePropietari() {
         super("Intercettiamo degli eventi");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setPreferredSize(new Dimension(FRAME_WIDTH, FRAME_HEIGHT));
@@ -158,6 +158,6 @@ public class GestioneCalciatori extends JFrame {
     }
 
     public static void test() {
-        GestioneCalciatori b = new GestioneCalciatori();
+        GestionePropietari b = new GestionePropietari();
     }
 }

@@ -1,11 +1,11 @@
-package gestionecalciatori;
+package gestioneproprietari;
 
-public class MainGestioneCalciatori {
+public class MainGestioneProprietariDiMacchine {
 
     public static void main(String[] args) {
         
         if (DbUtils.initDb("test")) {
-            new GestioneCalciatori();
+            new GestionePropietari();
         } else {
             System.out.println("Il DBServer è avviato? Non mi sembra!");
         }
