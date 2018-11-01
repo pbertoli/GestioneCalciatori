@@ -2,3 +2,11 @@ create table proprietario (
     Nome varchar(10) primary key,
     Targa varchar(10), 
     anno int);
+
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| Nome  | varchar(10) | NO   | PRI | NULL    |       |
+| Targa | varchar(10) | YES  |     | NULL    |       |
+| anno  | int(11)     | YES  |     | NULL    |       |
++-------+-------------+------+-----+---------+-------+
